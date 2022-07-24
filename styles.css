@@ -1,0 +1,209 @@
+html{
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #c6b6b6 ;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.animation{
+    transform: translateY(-30px);
+    
+    transition: transform 1000ms ease-out;
+}
+
+
+
+.blank{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 35vh;
+}
+
+.btn{
+    margin: 20px;
+}
+
+.btn:hover{
+    border: none;
+    background-color:#c6b6b6 ;
+    color: #3F4E4F ;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+ 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.cover1{
+    background-image: url(cover1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    background-position: center;
+    
+}
+
+.cover2{
+    background-image: url(cover2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    background-position: center;
+    
+}
+
+.cover3{
+    background-image: url(cover3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    background-position: center;
+    
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0%;
+    color: #3F4E4F;
+    font-size: 13px;
+    
+}
+
+.header{
+    font-family: 'Cormorant SC', serif;
+    background-color: #3F4E4F;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    color: #FDFAF6;
+}
+.header p{
+
+    position: relative;
+    top: 50%;
+}
+img{
+    height: 100%;
+}
+
+.last{
+    padding-bottom: 10px;
+}
+
+
+  
+.name{
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 70px;
+}
+
+.question{
+    text-align: center;
+}
+
+.scrol{
+    margin-top: 60px;
+}
+
+.text{
+    box-shadow:   -1px 0px 4px -1px #4c5d5e ;
+   
+    padding: 40px;
+    
+    background-color:#3F4E4F ;
+    border-radius: 10px;
+  
+}
+
+.think{
+    font-style: italic;
+   background-color: #dfe8cc6c;
+   box-shadow:   1px 0px 5px -1px #878a7f6c;
+   color: black;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .blank{
+        position: relative;
+        top: 30%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        height: 20vh;
+    }
+
+    .header{
+        font-family: 'Cormorant SC', serif;
+        background-color: #3F4E4F;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 25px;
+        color: #FDFAF6;
+    }
+    .header p{
+
+        position: relative;
+        top: 30%;
+    }
+    .cover1{
+        background-image: url(cover1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 11vh;
+        background-position: center;
+        
+    }
+    .cover2{
+        background-image: url(cover2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 11vh;
+        background-position: center;
+        
+    }
+    .cover3{
+        background-image: url(cover3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 11vh;
+        background-position: center;
+        
+    }
+    .name{
+        
+        font-size: 60px;
+    }
+
+    .text{
+   
+        padding: 25px;
+        
+    }
+   
+}
